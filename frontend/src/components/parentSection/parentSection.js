@@ -83,11 +83,11 @@ const InputSection = () => {
       </div>
       <div className='result_container'>
     
-    <text>ISOMETRIC VIEW</text>
-    <text>CALCULATION</text>
-      </div>
-     </div> 
-)     <div className='output_container'>
+      <text>ISOMETRIC VIEW</text>
+      <text>CALCULATION</text>
+        </div>
+      </div> 
+     <div className='output_container'>
    
             <text>Output</text>
    
