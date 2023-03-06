@@ -19,75 +19,8 @@ export default function InputComponents() {
     
   // };
   return (
-    
-   <div class='container'>
-    <div class='asidecontainer'>
-        <div  class='inputheader'>
-            <text>INPUT DATA</text>
-
-        </div>
-        
-        <form class='form' onSubmit>
-            <div>
-            <label>Clear Span </label>
-                                                                                                                                                                                   
-            <input type="number" required pattern='[0-9].{4}' />
-            </div>
-            <div>
-            <label> Width of Carriage way </label>
-            <input type="number" required pattern='[0-9].{4}'/>
-            </div>
-            <div>
-            <label> Width of Bearing </label>
-            <input type="number" required pattern='[0-9].{4}' />
-            </div>
-            <div>
-            <label> Grade of Concrete </label>
-            <input type="number" required pattern='[0-9].{4}' />
-            </div>
-            <div>
-            <label> Loading Standards </label>
-            <input type="number" required pattern='[0-9].{4}' />
-            </div>
-            <div>
-            <label> Grade of steel</label>
-            <input type="number" required pattern='[0-9].{4}' />
-            </div>
-            <div>
-            <text style={{marginRight:'10px'}}>
-                Footpath Dimensions :
-            </text>
-            </div>
-            <div>
-            <label > Width </label>
-            <input type="number" required pattern='[0-9].{4}' />
-            </div>
-            <div>
-            <label> Depth</label>
-            <input type="number"required pattern='[0-9].{4}' />
-            </div>
-            
-            <button class="button button1" type='submit' >Save</button>
-            <button class="button button2" type='reset' >Reset</button>
-            <button class="button button3" type='preview'>Preview</button>
-            
-</form>
-       
-    </div>
-    <div class='inputnumber'>
-      <div class='steps'>
-      <img src={data_img} alt="1" />
-      <img src={data_img1} alt="2" />
-      <img src={data_img2} alt="3" />
-      <img src={data_img3} alt="4" />
-      <img src={data_img4} alt="5" />
-      <img src={data_img5} alt="6" />
-      <img src={data_img6} alt="7" />
-      </div>
-
-    </div>  
-   </div>
-   
+    <>
+    </>
   
   )
 }

@@ -1,49 +1,54 @@
-.navContainer{
-    background-color: blue;    
-}
 
+.container{
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    /* overflow: hidden; */
+    
+
+}
+.container2{
+    display: flex;
+    flex-direction:row;
+    justify-content:start;
+    border: 2px solid black;
+    top: 0; right: 0; bottom: 0; left: 0;
+   
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    border: 4px solid blueviolet;
+    background-color: blue;
+}
 .nav{
     display: flex;
-    flex-direction:row ;
+    flex-direction:row;
     justify-content:start;
-    height: 5%;
+    background-color: blue; 
+   
+   
 }
 
 .nav p{
     margin-left: 1em;
     color: white;
-    display: flex;
-    flex-direction:row ;
-    justify-content:center;
     font-size: small;
+     
 }
 
 
-
-.container{
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    height: 95.8%;
-
-}
-
-.inputnumber{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(114, 5, 16);
-    min-width: 600px;
-    max-height: 100px;
- 
-}
 
 .asidecontainer{
-    max-width: 100%;
+    max-width: 65%;
+    min-height: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
     z-index: 1;
     background-color: rgba(251, 254, 123, 1);
+    overflow: auto;
+  
+        
 }
 
 .inputheader{
@@ -73,68 +78,50 @@
 }
 
 .button {
-    display:inline;
-    position: absolute;
-    top:76%;
-}
-
-.button2 {
-    left:10%
-}
-
-.button3 {
-    left:20%;
-}
+   height: 20px;
+   width: 90px;
+   display: flex;
+   flex-direction: row;
+   margin: 10px;
+   justify-content: center ;
+   gap: 30px;
+   
   
+
+}
+
+
 .steps {
     display: flex;
     flex-direction: row;
     background-color: rgb(123, 123, 123);
-    justify-content: space-between;
-    width:100%;
-    float:right;
-    
+    justify-content: center;
+    padding: 10px;
+    gap: 100px;
 }
 
 img {
     width: 20pt;
     float: left;
-    border: 2px solid #555;
+    border: 2px solid black;
       
    
 }
 
 .result_container{
-    position: relative;
+   
     padding: 100px;
     background-color: aqua;
-    z-index:3;
-    margin-left: 235px;
-    margin-top: 100px;
-    width:400px;
-    height:162px
+    
+}
 
-    
-  
-    
-}
-.inputresult{
-    display: flex;
-    flex-direction: row;
-   
-   
-}
 
 .output_container{
-    display: flex;
-
-    flex-direction: row;
-    background-color: rgba(217, 217, 217, 1);
-    border: 1px solid black;
-    float:right;
-    padding: 10px;
-    align-items: center;
-    font-size: smaller;
-    font-weight: 700;
+   background-color: black;
+ 
+    
+    
+ 
+    
 }
 
