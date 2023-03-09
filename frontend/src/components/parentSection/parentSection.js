@@ -22,76 +22,12 @@ const InputSection = () => {
       <p>Reference</p>
     </nav>
     <div className='container2'>
-      <div class='asidecontainer'>
-        <div  class='inputheader'>
-          <text>INPUT DATA</text>
-        </div>
-        <form class='form' onSubmit>
-            <div>
-              <label>Clear Span </label>
-              <input type="number" required pattern='[0-9].{4}' />
-            </div>
-            <div>
-              <label> Width of Carriage way </label>
-              <input type="number" required pattern='[0-9].{4}'/>
-            </div>
-            <div>
-              <label> Width of Bearing </label>
-              <input type="number" required pattern='[0-9].{4}' />
-            </div>
-            <div>
-              <label> Grade of Concrete </label>
-              <input type="number" required pattern='[0-9].{4}' />
-            </div>
-            <div>
-              <label> Loading Standards </label>
-              <input type="number" required pattern='[0-9].{4}' />
-            </div>
-            <div>
-              <label> Grade of steel</label>
-              <input type="number" required pattern='[0-9].{4}' />
-            </div>
-            <div>
-              <text style={{marginRight:'10px'}}>
-                  Footpath Dimensions :
-              </text>
-            </div>
-            <div>
-              <label > Width </label>
-              <input type="number" required pattern='[0-9].{4}' />
-            </div>
-            <div>
-              <label> Depth</label>
-              <input type="number"required pattern='[0-9].{4}' />
-            </div>
-        </form>
-          <div className='button'>
-            <button   type='submit' >Save</button>
-            <button  type='reset' >Reset</button>
-            <button type='preview'>Preview</button>
-          </div>
-      </div>
+    <InputComponents/>
     <div className='conatiner3'> 
-      <div class='steps'>
-        <img src={data_img} alt="1" />
-        <img src={data_img1} alt="2" />
-        <img src={data_img2} alt="3" />
-        <img src={data_img3} alt="4" />
-        <img src={data_img4} alt="5" />
-        <img src={data_img5} alt="6" />
-        <img src={data_img6} alt="7" />
-      </div>
-      <div className='result_container'>
+    <Result/>
+    </div>
     
-      <text>ISOMETRIC VIEW</text>
-      <text>CALCULATION</text>
-        </div>
-      </div> 
-     <div className='output_container'>
-   
-            <text>Output</text>
-   
-      </div>
+     <OutputComponents/>
       </div>
   </div>
   
